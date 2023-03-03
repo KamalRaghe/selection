@@ -1,0 +1,27 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid green;
+    height:100vh;
+}
+
+div{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid blue;
+}
+
+h2::selection{
+    background: #7d2aeb;
+}
+
+p::selection{
+    width: 50%;
+    background: #ff676d;
+}
